@@ -3,44 +3,48 @@
     padding: 0;
     font-family: "Orbitron" , sans-serif;
 }
+
+
 .container{
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 2rem;
-    padding: 3rem;
-    background-color: rgba(95, 95, 95, 0.571);
+    padding-top: 10rem;
+    height: 100vh;
+
+    background-color: rgba(151, 123, 123, 0.571);
     color: white;
-    height: 50vh;
-    width: 60vh; 
-    margin: auto;
     border-radius: 20px;
     box-shadow: 5px 5px 10px #00000079;
 }
 .container h1{
     color: #000000d9;
     text-shadow: 2px 2px 3px #0000007d;
+    font-size:26px;
 
 }
 .timer{
     display: flex;
     font-size: 55px;
     font-weight: bold;
+
 }
 .time{
     display: flex;
     align-items: center;
-    color: #000000c0;
+    color: #656363c0;
     min-width:90px ;
-    margin-right: 10px;
+    margin: 0 10px;
     
 }
 .separador{
     font-size: 50px;
     padding: 0 9px;
+    
 }
 #milliseconds{
-    font-size: 40px;
+    font-size: 25px;
 }
 
 .buttons{
